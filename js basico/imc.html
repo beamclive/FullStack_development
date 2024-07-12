@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+
+    <form onsubmit="return calcular(event)">
+        <label>Digite seu peso: </label><br>
+        <input type="text" name="peso" id="peso" placeholder="Exemplo: 65"><br><br>
+
+        <label>Digite sua altura: </label><br>
+        <input type="text" name="altura" id="altura" placeholder="Exemplo: 1.90"><br><br>
+
+        <input type="submit" value="Calcular IMC">
+
+    </form>
+
+    <div id="resultado"></div>
+    
+    <script src="script3.js"></script>
+    
+</body>
+</html>
+
+<!--
+o onsubmit funciona para chamar a função quando o submit for acionado, tem a mesma funcionalidade do onclick="return calcular(event)" no input
+-->
